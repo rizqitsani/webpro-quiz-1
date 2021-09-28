@@ -1,0 +1,28 @@
+{
+  "name": "webpro-quiz-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizqitsani/webpro-quiz-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizqitsani/webpro-quiz-1/issues"
+  },
+  "homepage": "https://github.com/rizqitsani/webpro-quiz-1#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1"
+  }
+}
