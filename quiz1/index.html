@@ -119,7 +119,14 @@
         "
       >
         <div>
-          <h1 class="font-bold text-4xl">Hi!, I'm Rizqi Tsani.</h1>
+          <h1 class="font-bold text-4xl">
+            <span
+              class="txt-type"
+              data-wait="1000"
+              data-words='["Hi!", "Halo!", "Привет!"]'
+            ></span
+            >, I'm Rizqi Tsani.
+          </h1>
           <div class="md:max-w-lg mt-4">
             <p>
               Currently an Informatics Student at Institut Teknologi Sepuluh
@@ -307,6 +314,7 @@
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/assets/js/typewriter.js"></script>
     <script>
       const map = L.map('map', {
         center: [-7.812649, 112.014738],
