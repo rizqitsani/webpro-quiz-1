@@ -247,7 +247,7 @@
         <div class="swiper w-full mt-4">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="container mx-auto px-6 md:px-20 py-6">
+              <div class="container mx-auto px-4 md:px-20 py-6">
                 <div
                   class="
                     rounded-lg
@@ -265,7 +265,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="container mx-auto px-6 md:px-20 py-6">
+              <div class="container mx-auto px-4 md:px-20 py-6">
                 <div
                   class="
                     rounded-lg
@@ -283,7 +283,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="container mx-auto px-6 md:px-20 py-6">
+              <div class="container mx-auto px-4 md:px-20 py-6">
                 <div
                   class="
                     rounded-lg
@@ -302,8 +302,8 @@
             </div>
           </div>
 
-          <div class="swiper-button-prev h-10 w-10"></div>
-          <div class="swiper-button-next h-10 w-10"></div>
+          <div class="swiper-button-prev hidden md:block h-10 w-10"></div>
+          <div class="swiper-button-next hidden md:block h-10 w-10"></div>
         </div>
       </section>
     </main>
@@ -329,16 +329,9 @@
       L.marker([-7.812649, 112.014738]).addTo(map).openPopup();
 
       const swiper = new Swiper('.swiper', {
-        // Optional parameters
         direction: 'horizontal',
         loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
+        autoplay: true,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
